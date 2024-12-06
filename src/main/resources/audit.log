@@ -1,0 +1,8 @@
+[2024-12-01T19:34:56.394097500] - User: cris (ROLE_USER) - Event: Login
+[2024-12-01T19:38:15.647345800] - User: cris (ROLE_USER) - Event: Logout
+[2024-12-01T19:38:21.610667700] - User: admin (ROLE_ADMIN) - Event: Login
+[2024-12-01T19:41:00.305654] - User: admin (ROLE_ADMIN) - Event: Logout
+[2024-12-03T23:16:02.349263] - User: cris (ROLE_USER) - Event: Login
+[2024-12-03T23:17:58.320085] - User: cris (ROLE_USER) - Event: Logout
+[2024-12-03T23:18:06.186951100] - User: admin (ROLE_ADMIN) - Event: Login
+[2024-12-03T23:20:28.116296400] - User: admin (ROLE_ADMIN) - Event: Logout

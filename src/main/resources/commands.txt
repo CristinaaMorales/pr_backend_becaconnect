@@ -1,0 +1,19 @@
+mysql -u root -pYourPassword -e "CREATE DATABASE IF NOT EXISTS becaco;" && .\mvnw spring-boot:run
+ng serve --open
+
+// pegar este codigo si es la primera vez que se usa.
+
+spring.application.name=becaconnect
+server.port=8082
+
+spring.datasource.url=jdbc:mysql://localhost:3306/becaco?createDatabaseIfNotExist=true
+spring.datasource.username=root
+spring.datasource.password=mysql
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+
+spring.jpa.show-sql=true
+# Enable initialization of SQL scripts
+spring.sql.init.mode=always
+spring.sql.init.data-locations=classpath:data.sql
+
